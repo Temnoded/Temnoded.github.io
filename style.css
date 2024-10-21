@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Karantina', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/Karantina-Light.ttf") format("TrueType");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karantina', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Karantina-Regular.ttf") format("TrueType");
+    font-display: swap;
+}
+
+body {
+    font-family: "Karantina", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #F7F7EF;
+    height: 100%;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    width: 678px;
+    height: 291px;
+    margin-top: 120px;
+    margin-left: 391px;
+}
+
+.chuvachok {
+    background-color: #F7F7EF;
+    max-width: 203;
+    max-height: 302;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 100px;
+}
+
+.main-section {
+    height: 210px;
+    display: flex;
+    background-image: url("img/kartinka.jpg");
+    background-size: 100% 210px;
+}
+
+.main-section__div--first {
+    background-color: #F7F7EF;
+    width: 450px;
+    max-height: 150px;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-left: 28px;
+    padding-top: 20px;
+}
+
+.main-section__div--description {
+    margin: 0;
+    min-width: 160px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.main-section__div--title {
+    margin-left: 200px;
+    margin-top: 80px;
+    color: #E85C5A;
+    font-size: 46px;
+}
+
+.main-description {
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.skills {
+    margin-left: 100px;
+}
+
+.skills__title {
+    color: #E85C5A;
+    font-size: 48px;
+    margin-left: 160px;
+}
+
+.skills__item {
+    font-size: 32px;
+}
+
+.education {
+    margin-left: 140px;
+    background-image: url("img/border.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.education__title {
+    font-size: 36px;
+    margin-top: -0.00001px;
+    margin-left: 15px;
+}
+
+.education__item {
+    font-size: 25px;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.main-footer__section {
+    display: flex;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.section__div--description {
+    text-align: right;
+}
+
+.section__description {
+    font-size: 24px;
+    color: #E85C5A;
+}
+
+.main-footer__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-left: 5px solid #000000;
+    padding-left: 20px;
+}
